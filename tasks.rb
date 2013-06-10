@@ -33,7 +33,6 @@ class Tasks < Sinatra::Base
   end
 
   get '/' do
-    binding.pry
     tasks = Task.all
     haml :tasks, locals: { tasks: tasks }
   end
