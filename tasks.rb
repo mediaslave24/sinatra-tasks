@@ -1,5 +1,6 @@
 require 'sinatra/base'
 require 'haml'
+require 'active_record'
 
 if Sinatra::Base.development?
   require 'sinatra/reloader' 
@@ -12,6 +13,14 @@ class Tasks < Sinatra::Base
   configure :development do
     register Sinatra::Reloader
     enable :reloader
+  end
+
+  configure :production do
+    ActiveRecord::Base.establish_connection
+  end
+
+  configure :development, :test do
+    ActiveRecord::Base.establish_connection("sqlite3://sinatra-tasks-#{environment}.sqlite3")
   end
 
   get '/' do
