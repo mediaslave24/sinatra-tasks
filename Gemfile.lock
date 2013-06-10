@@ -1,7 +1,6 @@
 GEM
   remote: https://rubygems.org/
   specs:
-    actionpack (1.4.0)
     activemodel (3.2.13)
       activesupport (= 3.2.13)
       builder (~> 3.0.0)
@@ -52,7 +51,6 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  actionpack
   activerecord
   haml
   pry
