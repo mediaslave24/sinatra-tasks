@@ -2,15 +2,23 @@
 
 load './tasks.rb'
 
-migrator = ActiveRecord::Migration
-
-case $*[0]
-when "up"
-  migrator.create_table :tasks do |t|
+M = ActiveRecord::Migration
+def up
+  M.create_table :tasks do |t|
     t.string :title
+    t.text :description
+    t.boolean :done
+    t.integer :pos
     t.timestamps
   end
-when "down"
-  migrator.drop_table :tasks
 end
 
+def down
+  M.drop_table :tasks
+end
+
+case $*[0]
+when "up" then up
+when "down" then down
+when "reset" then down; up
+end

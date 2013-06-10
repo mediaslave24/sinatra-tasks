@@ -33,21 +33,23 @@ class Tasks < Sinatra::Base
   end
 
   get '/' do
-    haml ""
+    binding.pry
+    tasks = Task.all
+    haml :tasks, locals: { tasks: tasks }
   end
 
   post '/' do
-    if Task.create(params[:task])
-    else
-    end
+    Task.create(params[:task])
+    redirect '/'
   end
 
   get "/filter/:cond" do |cond|
-    @tasks = case cond
+    tasks = case cond
     when "done" then Task.done
     when "undone" then Task.undone
     when "all" then redirect('/')
     end
+    haml :tasks, locals: { tasks: tasks }
   end
 end
 
@@ -59,6 +61,8 @@ __END__
     = haml :css
   %body
     = haml :nav
+    .container
+      = yield
     = haml :javascripts
 
 @@ nav
@@ -68,12 +72,12 @@ __END__
       %a.brand{href: "/"} Tasks
       %ul.nav
         %li
-          %a{href: "javascript:void(0);"} Undone
+          %a{href: "/filter/undone"} Undone
         %li
-          %a{href: "javascript:void(0);"} All
+          %a{href: "/filter/all"} All
         %li
-          %a{href: "javascript:void(0);"} Done
-      %form.form-inline.top-form
+          %a{href: "/filter/done"} Done
+      %form.form-inline.top-form{method: 'post'}
         %input{type: "text", name: "task[title]"}
         %input.btn.btn-primary{type: "submit", value: "Send"}
       %ul.pull-right.nav
@@ -101,3 +105,9 @@ __END__
 %script{src: "/js/jquery.min.js", type: "text/javascript"}
 %script{src: "/js/bootstrap.min.js", type: "text/javascript"}
 %script{src: "/js/app.js", type: "text/javascript"}
+
+@@ tasks
+#tasks
+  - tasks.each do |task|
+    .task
+      %h3= task.title
