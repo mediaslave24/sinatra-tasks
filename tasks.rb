@@ -32,21 +32,49 @@ class Tasks < Sinatra::Base
     ActiveRecord::Base.establish_connection("sqlite3:///sinatra-tasks-#{environment}.sqlite3")
   end
 
+  helpers do
+    def linkify(tasks, length = 3)
+      tasks.map! { |task|
+        title = task.title
+        task.title = %Q{ <a href="javascript:void(0);">#{title[0,length]}</a>} << title[length..-1]
+        task
+      }
+    end
+    def back
+      env['HTTP_REFERER']
+    end
+  end
+
   get '/' do
-    tasks = Task.all
+    tasks = Task.undone
     haml :tasks, locals: { tasks: tasks }
   end
 
   post '/' do
     Task.create(params[:task])
-    redirect '/'
+    redirect back
+  end
+
+  get '/change/:action/:id' do |action, id|
+    task = Task.find(id) 
+    case action
+    when "up" then task.increment!(:pos)
+    when "down" then  task.decrement!(:pos)
+    when "done" then task.toggle!(:done)
+    end
+    redirect back
+  end
+
+  get "/destroy/:id" do |id|
+    task = Task.find(id).destroy
+    redirect back
   end
 
   get "/filter/:cond" do |cond|
     tasks = case cond
     when "done" then Task.done
-    when "undone" then Task.undone
-    when "all" then redirect('/')
+    when "undone" then redirect('/')
+    when "all" then Task.all
     end
     haml :tasks, locals: { tasks: tasks }
   end
@@ -98,6 +126,9 @@ __END__
   .topnav {
     height: 50px;
   }
+  .done {
+    text-decoration: line-through;
+  }
   
 
 @@ javascripts
@@ -107,6 +138,15 @@ __END__
 
 @@ tasks
 #tasks
-  - tasks.each do |task|
-    .task
-      %h3= task.title
+  - linkify(tasks).each do |task|
+    .task.dropdown
+      %h3.dropdown-toggle{"data-toggle" => "dropdown", class: ("done muted" if task.done?) }= task.title
+      %ul.dropdown-menu
+        %li
+          %a{href: "/change/done/#{task.id}"} Finish
+        %li
+          %a{href: "/change/up/#{task.id}"} Move Up
+        %li
+          %a{href: "/change/down/#{task.id}"} Move Down
+        %li
+          %a{href: "/destroy/#{task.id}"} Destroy

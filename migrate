@@ -7,8 +7,8 @@ def up
   M.create_table :tasks do |t|
     t.string :title
     t.text :description
-    t.boolean :done
-    t.integer :pos
+    t.boolean :done, default: false
+    t.integer :pos, default: 0
     t.timestamps
   end
 end
