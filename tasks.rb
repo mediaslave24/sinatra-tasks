@@ -7,6 +7,15 @@ if Sinatra::Base.development?
   require 'pry'
 end
 
+class Task < ActiveRecord::Base
+  attr_accessible :title, :description, :pos, :done
+  validates_presence_of :title
+
+  default_scope  ->{ order("pos DESC").order("created_at DESC") }
+  scope :done,   ->{ where(done: true) }
+  scope :undone, ->{ where(done: false) }
+end
+
 class Tasks < Sinatra::Base
   enable :inline_templates
 
@@ -20,11 +29,25 @@ class Tasks < Sinatra::Base
   end
 
   configure :development, :test do
-    ActiveRecord::Base.establish_connection("sqlite3://sinatra-tasks-#{environment}.sqlite3")
+    ActiveRecord::Base.establish_connection("sqlite3:///sinatra-tasks-#{environment}.sqlite3")
   end
 
   get '/' do
     haml ""
+  end
+
+  post '/' do
+    if Task.create(params[:task])
+    else
+    end
+  end
+
+  get "/filter/:cond" do |cond|
+    @tasks = case cond
+    when "done" then Task.done
+    when "undone" then Task.undone
+    when "all" then redirect('/')
+    end
   end
 end
 
@@ -41,7 +64,7 @@ __END__
 @@ nav
 .container
   .navbar
-    .navbar-inner
+    .navbar-inner.topnav
       %a.brand{href: "/"} Tasks
       %ul.nav
         %li
@@ -50,6 +73,9 @@ __END__
           %a{href: "javascript:void(0);"} All
         %li
           %a{href: "javascript:void(0);"} Done
+      %form.form-inline.top-form
+        %input{type: "text", name: "task[title]"}
+        %input.btn.btn-primary{type: "submit", value: "Send"}
       %ul.pull-right.nav
         %li.dropdown
           %a.dropdown-toggle{href: "javascript:void(0);", "data-toggle" => "dropdown"} Action
@@ -59,6 +85,17 @@ __END__
 @@ css
 %link{href: "/css/bootstrap.min.css", type: "text/css", rel: "stylesheet"}
 %link{href: "/css/bootstrap-responsive.min.css", type: "text/css", rel: "stylesheet"}
+:css
+  .top-form {
+    display: inline-block;
+  }
+  .top-form input[type=text] {
+    margin-top:6px;
+  }
+  .topnav {
+    height: 50px;
+  }
+  
 
 @@ javascripts
 %script{src: "/js/jquery.min.js", type: "text/javascript"}

@@ -1,0 +1,16 @@
+#!/usr/bin/env ruby
+
+load './tasks.rb'
+
+migrator = ActiveRecord::Migration
+
+case $*[0]
+when "up"
+  migrator.create_table :tasks do |t|
+    t.string :title
+    t.timestamps
+  end
+when "down"
+  migrator.drop_table :tasks
+end
+
