@@ -33,13 +33,6 @@ class Tasks < Sinatra::Base
   end
 
   helpers do
-    def linkify(tasks, length = 3)
-      tasks.map! { |task|
-        title = task.title
-        task.title = %Q{ <a href="javascript:void(0);">#{title[0,length]}</a>} << title[length..-1]
-        task
-      }
-    end
     def back
       env['HTTP_REFERER']
     end
@@ -129,6 +122,9 @@ __END__
   .done {
     text-decoration: line-through;
   }
+  .task h3 {
+    cursor: pointer;
+  }
   
 
 @@ javascripts
@@ -138,7 +134,7 @@ __END__
 
 @@ tasks
 #tasks
-  - linkify(tasks).each do |task|
+  - tasks.each do |task|
     .task.dropdown
       %h3.dropdown-toggle{"data-toggle" => "dropdown", class: ("done muted" if task.done?) }= task.title
       %ul.dropdown-menu
