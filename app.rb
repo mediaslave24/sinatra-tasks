@@ -36,6 +36,12 @@ class Tasks < Sinatra::Base
     def back
       env['HTTP_REFERER']
     end
+    def task_class(task)
+      klass = []
+      klass.push "done", "muted" if task.done?
+      klass.push "text-error" if task.highlighted?
+      klass.join(' ')
+    end
   end
 
   get '/' do
@@ -54,6 +60,7 @@ class Tasks < Sinatra::Base
     when "up" then task.increment!(:pos)
     when "down" then  task.decrement!(:pos)
     when "done" then task.toggle!(:done)
+    when "highlight" then task.toggle!(:highlighted)
     end
     redirect back
   end
@@ -136,10 +143,12 @@ __END__
 #tasks
   - tasks.each do |task|
     .task.dropdown
-      %h3.dropdown-toggle{"data-toggle" => "dropdown", class: ("done muted" if task.done?) }= task.title
+      %h3.dropdown-toggle{"data-toggle" => "dropdown", class: task_class(task) }= task.title
       %ul.dropdown-menu
         %li
           %a{href: "/change/done/#{task.id}"} Finish
+        %li
+          %a{href: "/change/highlight/#{task.id}"} Highlight
         %li
           %a{href: "/change/up/#{task.id}"} Move Up
         %li
