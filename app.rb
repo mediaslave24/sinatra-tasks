@@ -7,16 +7,7 @@ if Sinatra::Base.development?
   require 'pry'
 end
 
-class Task < ActiveRecord::Base
-  attr_accessible :title, :description, :pos, :done
-  validates_presence_of :title
-
-  default_scope  ->{ order("pos DESC").order("created_at DESC") }
-  scope :done,   ->{ where(done: true) }
-  scope :undone, ->{ where(done: false) }
-end
-
-class Tasks < Sinatra::Base
+class Sinatra::Base
   enable :inline_templates
 
   configure :development do
@@ -31,6 +22,18 @@ class Tasks < Sinatra::Base
   configure :development, :test do
     ActiveRecord::Base.establish_connection("sqlite3:///sinatra-tasks-#{environment}.sqlite3")
   end
+end
+
+class Task < ActiveRecord::Base
+  attr_accessible :title, :description, :pos, :done
+  validates_presence_of :title
+
+  default_scope  ->{ order("pos DESC").order("created_at DESC") }
+  scope :done,   ->{ where(done: true) }
+  scope :undone, ->{ where(done: false) }
+end
+
+class Tasks < Sinatra::Base
 
   helpers do
     def back
