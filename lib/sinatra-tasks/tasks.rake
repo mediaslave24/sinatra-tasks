@@ -1,7 +1,12 @@
 require 'rake'
 require 'sinatra-tasks'
+require 'pry'
 
-migrator = ActiveRecord::Migration
+migrator = ActiveRecord::Migration.new
+def migrator.connection
+  @connection || SinatraTasks::Task.connection
+end
+
 namespace :db do
   namespace :migrate do
     desc "Migrate up"
