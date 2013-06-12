@@ -1,7 +1,7 @@
 sinatra-tasks
 =============
 Usage:
-```
+```ruby
 # in config.ru
 require 'sinatra-tasks'
 run SinatraTasks::App
