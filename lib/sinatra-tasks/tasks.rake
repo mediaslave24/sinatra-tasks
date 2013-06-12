@@ -4,6 +4,7 @@ require 'sinatra-tasks'
 migrator = ActiveRecord::Migration
 namespace :db do
   namespace :migrate do
+    desc "Migrate up"
     task :up do
       migrator.create_table :tasks do |t|
         t.string :title
@@ -15,11 +16,13 @@ namespace :db do
       end
     end
 
+    desc "Migrate down"
     task :down do
       migrator.drop_table :tasks
     end
   end
 
+  desc "Migrate down and up"
   task :reset do
     begin
       Rake::Task[:"db:migrate:down"].invoke
