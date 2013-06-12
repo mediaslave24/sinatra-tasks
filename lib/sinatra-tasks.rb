@@ -22,11 +22,11 @@ module SinatraTasks
     end
 
     configure :production do
-      ActiveRecord::Base.establish_connection
+      Task.establish_connection
     end
 
     configure :development, :test do
-      ActiveRecord::Base.establish_connection("sqlite3:///sinatra-tasks-#{environment}.sqlite3")
+      Task.establish_connection("sqlite3:///sinatra-tasks-#{environment}.sqlite3")
     end
 
     helpers do
