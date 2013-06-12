@@ -2,7 +2,7 @@
 
 Gem::Specification.new do |gem|
   gem.name         = "sinatra-tasks"
-  gem.version      = "0.2.1"
+  gem.version      = "0.2.2"
 
   gem.description  = "Simple task manager with sinatra."
   gem.summary      = gem.description
