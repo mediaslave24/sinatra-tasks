@@ -18,8 +18,8 @@ Gem::Specification.new do |gem|
 
   gem.required_ruby_version = ">= 1.9.2"
 
-  gem.add_dependency "sinatra", "~> 1.4"
-  gem.add_dependency "sinatra-contrib", "~> 1.4"
+  gem.add_dependency "sinatra"
+  gem.add_dependency "sinatra-contrib"
   gem.add_dependency "haml"
   gem.add_dependency "sqlite3"
   gem.add_dependency "activerecord", "~> 3.2"
