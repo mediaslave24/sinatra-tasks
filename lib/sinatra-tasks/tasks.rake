@@ -1,7 +1,7 @@
 require 'rake'
-require File.expand_path("../app.rb", __FILE__)
-migrator = ActiveRecord::Migration
+require 'sinatra-tasks'
 
+migrator = ActiveRecord::Migration
 namespace :db do
   namespace :migrate do
     task :up do

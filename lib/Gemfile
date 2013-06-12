@@ -6,8 +6,5 @@ gem 'sinatra'
 gem 'sinatra-contrib'
 gem 'haml'
 gem 'activerecord'
-
-group :development do
-  gem "pry"
-  gem "sqlite3"
-end
+gem "pry"
+gem "sqlite3"

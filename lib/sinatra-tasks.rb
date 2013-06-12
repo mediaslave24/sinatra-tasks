@@ -1,85 +1,80 @@
 require 'sinatra/base'
 require 'haml'
 require 'active_record'
+require 'sinatra/reloader' if Sinatra::Base.development?
 
-if Sinatra::Base.development?
-  require 'sinatra/reloader' 
-  require 'pry'
-end
+module SinatraTasks
+  class Task < ActiveRecord::Base
+    attr_accessible :title, :description, :pos, :done
+    validates_presence_of :title
 
-class Sinatra::Base
-  enable :inline_templates
-
-  configure :development do
-    register Sinatra::Reloader
-    enable :reloader
+    default_scope  ->{ order("pos DESC").order("created_at DESC") }
+    scope :done,   ->{ where(done: true) }
+    scope :undone, ->{ where(done: false) }
   end
 
-  configure :production do
-    ActiveRecord::Base.establish_connection
-  end
+  class App < Sinatra::Base
+    enable :inline_templates
 
-  configure :development, :test do
-    ActiveRecord::Base.establish_connection("sqlite3:///sinatra-tasks-#{environment}.sqlite3")
-  end
-end
-
-class Task < ActiveRecord::Base
-  attr_accessible :title, :description, :pos, :done
-  validates_presence_of :title
-
-  default_scope  ->{ order("pos DESC").order("created_at DESC") }
-  scope :done,   ->{ where(done: true) }
-  scope :undone, ->{ where(done: false) }
-end
-
-class Tasks < Sinatra::Base
-
-  helpers do
-    def back
-      env['HTTP_REFERER']
+    configure :development do
+      register Sinatra::Reloader
+      enable :reloader
     end
-    def task_class(task)
-      klass = []
-      klass.push "done", "muted" if task.done?
-      klass.push "text-error" if task.highlighted?
-      klass.join(' ')
+
+    configure :production do
+      ActiveRecord::Base.establish_connection
     end
-  end
 
-  get '/' do
-    tasks = Task.undone
-    haml :tasks, locals: { tasks: tasks }
-  end
-
-  post '/' do
-    Task.create(params[:task])
-    redirect back
-  end
-
-  get '/change/:action/:id' do |action, id|
-    task = Task.find(id) 
-    case action
-    when "up" then task.increment!(:pos)
-    when "down" then  task.decrement!(:pos)
-    when "done" then task.toggle!(:done)
-    when "highlight" then task.toggle!(:highlighted)
+    configure :development, :test do
+      ActiveRecord::Base.establish_connection("sqlite3:///sinatra-tasks-#{environment}.sqlite3")
     end
-    redirect back
-  end
 
-  get "/destroy/:id" do |id|
-    task = Task.find(id).destroy
-    redirect back
-  end
-
-  get "/filter/:cond" do |cond|
-    tasks = case cond
-    when "done" then Task.done
-    when "undone" then redirect('/')
-    when "all" then Task.all
+    helpers do
+      def back
+        env['HTTP_REFERER']
+      end
+      def task_class(task)
+        klass = []
+        klass.push "done", "muted" if task.done?
+        klass.push "text-error" if task.highlighted?
+        klass.join(' ')
+      end
     end
-    haml :tasks, locals: { tasks: tasks }
+
+    get '/' do
+      tasks = Task.undone
+      haml :tasks, locals: { tasks: tasks }
+    end
+
+    post '/' do
+      Task.create(params[:task])
+      redirect back
+    end
+
+    get '/change/:action/:id' do |action, id|
+      task = Task.find(id) 
+      case action
+      when "up" then task.increment!(:pos)
+      when "down" then  task.decrement!(:pos)
+      when "done" then task.toggle!(:done)
+      when "highlight" then task.toggle!(:highlighted)
+      end
+      redirect back
+    end
+
+    get "/destroy/:id" do |id|
+      task = Task.find(id).destroy
+      redirect back
+    end
+
+    get "/filter/:cond" do |cond|
+      tasks = case cond
+      when "done" then Task.done
+      when "undone" then redirect('/')
+      when "all" then Task.all
+      end
+      haml :tasks, locals: { tasks: tasks }
+    end
   end
 end
 
