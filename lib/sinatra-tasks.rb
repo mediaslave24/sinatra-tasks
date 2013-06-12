@@ -102,7 +102,7 @@ __END__
           %a{href: "/filter/all"} All
         %li
           %a{href: "/filter/done"} Done
-      %form.form-inline.top-form{method: 'post'}
+      %form.form-inline.top-form{action: '/', method: 'post'}
         %input{type: "text", name: "task[title]"}
         %input.btn.btn-primary{type: "submit", value: "Send"}
       %ul.pull-right.nav
