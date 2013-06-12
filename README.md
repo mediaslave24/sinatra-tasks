@@ -12,6 +12,8 @@ load 'sinatra-tasks/tasks.rake'
 # in order to provide database configuration export environment variable 'DATABASE_URL'
 # Example:
 ENV['DATABASE_URL'] = "mysql2://user:pass@host/database_name?reconnect=true"
+```
+```bash
 # If heroku, then
 $ heroku config:set DATABASE_URL=mysql2://user:pass@host/database_name?reconnect=true
 ```
