@@ -21,7 +21,6 @@ Gem::Specification.new do |gem|
   gem.add_dependency "sinatra"
   gem.add_dependency "sinatra-contrib"
   gem.add_dependency "haml"
-  gem.add_dependency "sqlite3"
   gem.add_dependency "activerecord", "~> 3.2"
   gem.add_dependency "rake"
 
