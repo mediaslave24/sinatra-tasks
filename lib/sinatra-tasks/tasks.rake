@@ -1,6 +1,5 @@
 require 'rake'
 require 'sinatra-tasks'
-require 'pry'
 
 migrator = ActiveRecord::Migration.new
 def migrator.connection
