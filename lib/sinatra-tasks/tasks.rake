@@ -6,7 +6,7 @@ def migrator.connection
   @connection || SinatraTasks::Task.connection
 end
 
-namespace :"sinatra-tasks" do
+namespace :sinatra_tasks do
   namespace :db do
     namespace :migrate do
       desc "Migrate up"
@@ -35,10 +35,10 @@ namespace :"sinatra-tasks" do
     desc "Migrate down and up"
     task :reset do
       begin
-        Rake::Task[:"db:migrate:down"].invoke
+        Rake::Task[:"sinatra_tasks:db:migrate:down"].invoke
       rescue StandardError
       end
-      Rake::Task[:"db:migrate:up"].invoke
+      Rake::Task[:"sinatra_tasks:db:migrate:up"].invoke
     end
   end
 end
