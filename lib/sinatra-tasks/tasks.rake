@@ -23,6 +23,11 @@ namespace :db do
 
     desc "Migrate down"
     task :down do
+      if migrator.connection.table_exists?("tasks")
+        print  "'tasks' table already exists, do you want to destroy it? (print 'yes'): "
+        ans = STDIN.gets().strip
+        exit(0) unless ans.downcase == 'yes'
+      end
       migrator.drop_table :tasks
     end
   end
