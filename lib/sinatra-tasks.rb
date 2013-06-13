@@ -3,6 +3,11 @@ require 'haml'
 require 'active_record'
 require 'sinatra/reloader' if Sinatra::Base.development?
 
+begin
+  require 'pry'
+rescue LoadError
+end
+
 module SinatraTasks
   class Task < ActiveRecord::Base
     attr_accessible :title, :description, :pos, :done
@@ -39,6 +44,16 @@ module SinatraTasks
         klass.push "text-error" if task.highlighted?
         klass.join(' ')
       end
+      def public_file_path(basename, ext)
+        File.join settings.public_folder, ext, basename
+      end
+      def url(_url)
+        url = "/" << _url if url.to_s[0] != '/'
+        request.script_name + _url
+      end
+      def link (text, url, opts={})
+        %Q{<a href="#{url(url)}" #{opts.map{|k,v|%Q[#{k}=#{v}]}.join(' ')} >#{text}</a>} 
+      end
     end
 
     get '/' do
@@ -70,7 +85,7 @@ module SinatraTasks
     get "/filter/:cond" do |cond|
       tasks = case cond
       when "done" then Task.done
-      when "undone" then redirect('/')
+      when "undone" then redirect(url('/'))
       when "all" then Task.all
       end
       haml :tasks, locals: { tasks: tasks }
@@ -94,26 +109,26 @@ __END__
 .container
   .navbar
     .navbar-inner.topnav
-      %a.brand{href: "/"} Tasks
+      = link "Tasks", "/", class: "brand"
       %ul.nav
         %li
-          %a{href: "/filter/undone"} Undone
+          = link "Undone", "/filter/undone"
         %li
-          %a{href: "/filter/all"} All
+          = link "All", "/filter/all"
         %li
-          %a{href: "/filter/done"} Done
-      %form.form-inline.top-form{action: '/', method: 'post'}
+          = link "Done", "/filter/done"
+      %form.form-inline.top-form{action: url('/'), method: 'post'}
         %input{type: "text", name: "task[title]"}
         %input.btn.btn-primary{type: "submit", value: "Send"}
-      %ul.pull-right.nav
+      -#%ul.pull-right.nav
         %li.dropdown
           %a.dropdown-toggle{href: "javascript:void(0);", "data-toggle" => "dropdown"} Action
           %ul.dropdown-menu
             %li
               %a{href: "javascript:void(0);", "data-confirm" => "Are you shure?"} Logout
 @@ css
-%link{href: "/css/bootstrap.min.css", type: "text/css", rel: "stylesheet"}
-%link{href: "/css/bootstrap-responsive.min.css", type: "text/css", rel: "stylesheet"}
+%link{href: url("/css/bootstrap.min.css"), type: "text/css", rel: "stylesheet"}
+%link{href: url("/css/bootstrap-responsive.min.css"), type: "text/css", rel: "stylesheet"}
 :css
   .top-form {
     display: inline-block;
@@ -133,9 +148,9 @@ __END__
   
 
 @@ javascripts
-%script{src: "/js/jquery.min.js", type: "text/javascript"}
-%script{src: "/js/bootstrap.min.js", type: "text/javascript"}
-%script{src: "/js/app.js", type: "text/javascript"}
+%script{src: url("/js/jquery.min.js"), type: "text/javascript"}
+%script{src: url("/js/bootstrap.min.js"), type: "text/javascript"}
+%script{src: url("/js/app.js"), type: "text/javascript"}
 
 @@ tasks
 #tasks
@@ -144,12 +159,12 @@ __END__
       %h3.dropdown-toggle{"data-toggle" => "dropdown", class: task_class(task) }= task.title
       %ul.dropdown-menu
         %li
-          %a{href: "/change/done/#{task.id}"} Finish
+          = link "Finish", "/change/done/#{task.id}"
         %li
-          %a{href: "/change/highlight/#{task.id}"} Highlight
+          = link "Highlight", "/change/highlight/#{task.id}"
         %li
-          %a{href: "/change/up/#{task.id}"} Move Up
+          = link "Move Up", "/change/up/#{task.id}"
         %li
-          %a{href: "/change/down/#{task.id}"} Move Down
+          = link "Move Down", "/change/down/#{task.id}"
         %li
-          %a{href: "/destroy/#{task.id}"} Destroy
+          = link "Destroy", "/destroy/#{task.id}"
