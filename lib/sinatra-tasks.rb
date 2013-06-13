@@ -41,7 +41,7 @@ module SinatraTasks
       def task_class(task)
         klass = []
         klass.push "done", "muted" if task.done?
-        klass.push "text-error" if task.highlighted? && !task.done?
+        klass.push "text-warning" if task.highlighted? && !task.done?
         klass.join(' ')
       end
       def public_file_path(basename, ext)
