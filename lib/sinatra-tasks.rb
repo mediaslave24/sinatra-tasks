@@ -52,7 +52,7 @@ module SinatraTasks
         request.script_name + _url
       end
       def link (text, url, opts={})
-        %Q{<a href="#{url(url)}" #{opts.map{|k,v|%Q[#{k}=#{v}]}.join(' ')} >#{text}</a>} 
+        %Q{<a href="#{opts[:raw_url] ? url : url(url)}" #{opts.map{|k,v|%Q[#{k}=#{v}]}.join(' ')} >#{text}</a>} 
       end
     end
 
@@ -73,6 +73,7 @@ module SinatraTasks
       when "down" then  task.decrement!(:pos)
       when "done" then task.toggle!(:done)
       when "highlight" then task.toggle!(:highlighted)
+      when "title" then task.update_attribute(:title, params[:title])
       end
       redirect back
     end
@@ -151,6 +152,49 @@ __END__
 %script{src: url("/js/jquery.min.js"), type: "text/javascript"}
 %script{src: url("/js/bootstrap.min.js"), type: "text/javascript"}
 %script{src: url("/js/app.js"), type: "text/javascript"}
+:javascript
+  (function($){
+    function makeEditable() {
+      var link = $(this),
+          header = link
+                    .parent()
+                    .parent()
+                    .siblings('h3'),
+          name = link.attr("data-name");
+          url = link.attr("data-url"),
+          target = link.attr("data-target"),
+          editable = $("<input type='text'/>",{
+                        type: "text",
+                        class: "editable",
+                        name: name
+                      }),
+          requiredCss = header.css([
+            "font-family", 
+            "font-size",
+            "font-weight",
+            "width",
+            "height",
+            "line-height",
+            "color",
+            "margin",
+            "padding"
+          ]),
+          value = header.text(); 
+
+      editable.css(requiredCss);
+      editable.attr("value", value);
+      header.after(editable);
+      editable.keyup(function(event){
+        if ( event.keyCode == 13) {
+          $.get(
+            url + '?' + name + '=' + value,
+            function() { link.remove(); }
+          )
+        }
+      });
+    }
+    $("a[data-action='edit']").click(makeEditable);
+  })(jQuery);
 
 @@ tasks
 #tasks
@@ -160,6 +204,8 @@ __END__
       %ul.dropdown-menu
         %li
           = link "Finish", "/change/done/#{task.id}"
+        %li
+          = link "Edit", "javascript:void(0);", "data-action" => "edit", "data-target" => "h3", "data-url" => url("/change/title/#{task.id}"), "data-name" => "title", raw_url: true
         %li
           = link "Highlight", "/change/highlight/#{task.id}"
         %li
