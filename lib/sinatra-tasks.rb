@@ -1,6 +1,7 @@
 require 'sinatra/base'
 require 'haml'
 require 'active_record'
+require 'sinatra/namespace'
 require 'sinatra/reloader' if Sinatra::Base.development?
 
 begin
@@ -19,6 +20,7 @@ module SinatraTasks
   end
 
   class App < Sinatra::Base
+
     enable :inline_templates
 
     configure :development do
