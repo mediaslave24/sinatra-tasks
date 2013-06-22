@@ -20,6 +20,27 @@ module SinatraTasks
   end
 
   class App < Sinatra::Base
+    module ViewHelpers
+      def opts_to_attr(*opts)
+        opts.map{|k,v|
+          %Q[#{k}="#{v}"]
+        }.join(" ")
+      end
+
+      def url(_url)
+        url = "/#{url}" if url.to_s[0] != '/'
+        request.script_name + _url
+      end
+
+      def link (text, url, opts={})
+        (opts[:class] = opts[:class] ? opts[:class].to_s + " active" : "active") if request.path == url
+        %Q{<a href="#{opts.delete(:raw_url) ? url : url(url)}" #{opts_to_attr(*opts)}>#{text}</a>} 
+      end
+
+      def current_url?(url)
+        request.path == url
+      end
+    end
 
     enable :inline_templates
 
@@ -49,14 +70,8 @@ module SinatraTasks
       def public_file_path(basename, ext)
         File.join settings.public_folder, ext, basename
       end
-      def url(_url)
-        url = "/" << _url if url.to_s[0] != '/'
-        request.script_name + _url
-      end
-      def link (text, url, opts={})
-        %Q{<a href="#{opts[:raw_url] ? url : url(url)}" #{opts.map{|k,v|%Q[#{k}=#{v}]}.join(' ')} >#{text}</a>} 
-      end
     end
+    helpers ViewHelpers
 
     get '/' do
       tasks = Task.undone
@@ -114,11 +129,11 @@ __END__
     .navbar-inner.topnav
       = link "Tasks", "/", class: "brand"
       %ul.nav
-        %li
+        %li{class: ("active" if current_url?('/'))}
           = link "Undone", "/filter/undone"
-        %li
+        %li{class: ("active" if current_url?('/filter/all'))}
           = link "All", "/filter/all"
-        %li
+        %li{class: ("active" if current_url?('/filter/done'))}
           = link "Done", "/filter/done"
       %form.form-inline.top-form{action: url('/'), method: 'post'}
         %input{type: "text", name: "task[title]"}
