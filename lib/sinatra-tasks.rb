@@ -151,50 +151,9 @@ __END__
 @@ javascripts
 %script{src: url("/js/jquery.min.js"), type: "text/javascript"}
 %script{src: url("/js/bootstrap.min.js"), type: "text/javascript"}
+%script{src: url("/js/knockout.min.js"), type: "text/javascript"}
+%script{src: url("/js/underscore.min.js"), type: "text/javascript"}
 %script{src: url("/js/app.js"), type: "text/javascript"}
-:javascript
-  (function($){
-    function makeEditable() {
-      var link = $(this),
-          header = link
-                    .parent()
-                    .parent()
-                    .siblings('h3'),
-          name = link.attr("data-name");
-          url = link.attr("data-url"),
-          target = link.attr("data-target"),
-          editable = $("<input type='text'/>",{
-                        type: "text",
-                        class: "editable",
-                        name: name
-                      }),
-          requiredCss = header.css([
-            "font-family", 
-            "font-size",
-            "font-weight",
-            "width",
-            "height",
-            "line-height",
-            "color",
-            "margin",
-            "padding"
-          ]),
-          value = header.text(); 
-
-      editable.css(requiredCss);
-      editable.attr("value", value);
-      header.after(editable);
-      editable.keyup(function(event){
-        if ( event.keyCode == 13) {
-          $.get(
-            url + '?' + name + '=' + value,
-            function() { link.remove(); }
-          )
-        }
-      });
-    }
-    $("a[data-action='edit']").click(makeEditable);
-  })(jQuery);
 
 @@ tasks
 #tasks
