@@ -1,0 +1,399 @@
+o:GriddableMap:@top_leftS:GriddableMap::Point:latf44.370987:lngf22.313232:@bottom_rightS;;f40.763901;	f29.53125:@options{:	ruleI"country:EF:	nameI"bulgaria;F:@bottom_leftS;;@
+;	@:@top_rightS;;@;	@:@unfiltered_gridS:GriddableMap::Grid:
+lines[	[S;;f41.485318199999995;	f23.21548425S;;@;	f25.01998875S;;@;	f25.922241[
+S;;f42.2067354;	f23.344377428571427S;;@;	f24.375522857142858S;;@;	f25.406668285714286S;;@;	f26.437813714285713S;;@;	f27.468959142857145[
+S;;f42.9281526;	f23.344377428571427S;;@);	f24.375522857142858S;;@);	f25.406668285714286S;;@);	f26.437813714285713S;;@);	f27.468959142857145[
+S;;f43.6495698;	f23.344377428571427S;;@5;	f24.375522857142858S;;@5;	f26.437813714285713S;;@5;	f27.468959142857145S;;@5;	f28.500104571428572:@cache{7I"40.763901,22.313232;F[o:Geocoder::Result::Google:
+@data{	I"address_components;T[{I"long_name;TI"Megalou Alexandrou;TI"short_name;TI"Meg. Alexandrou;TI"
+types;T[I"
+route;T{I"long_name;TI"Kariotissa;TI"short_name;TI"Kariotissa;TI"
+types;T[I"locality;TI"political;T{I"long_name;TI"Megas Alexandros;TI"short_name;TI"Megas Alexandros;TI"
+types;T[I"political;T{I"long_name;TI"
+Pella;TI"short_name;TI"
+Pella;TI"
+types;T[I"political;T{I"long_name;TI"
+Pella;TI"short_name;TI"
+Pella;TI"
+types;T[I" administrative_area_level_3;TI"political;T{I"long_name;TI"Kentriki Makedonia;TI"short_name;TI"Kentriki Makedonia;TI"
+types;T[I" administrative_area_level_2;TI"political;T{I"long_name;TI"Makedonia Thraki;TI"short_name;TI"Makedonia Thraki;TI"
+types;T[I" administrative_area_level_1;TI"political;T{I"long_name;TI"Greece;TI"short_name;TI"GR;TI"
+types;T[I"country;TI"political;T{I"long_name;TI"580 01;TI"short_name;TI"580 01;TI"
+types;T[I"postal_code;TI"formatted_address;TI"-Megalou Alexandrou, Pella 580 01, Greece;TI"geometry;T{	I"bounds;T{I"northeast;T{I"lat;Tf40.7675826I"lng;Tf22.3131474I"southwest;T{I"lat;Tf40.76667459999999I"lng;Tf22.3129567I"location;T{I"lat;Tf40.7671286I"lng;Tf22.3130521I"location_type;TI"APPROXIMATE;TI"viewport;T{I"northeast;T{I"lat;Tf40.7684775802915I"lng;Tf22.3144010302915I"southwest;T{I"lat;Tf40.7657796197085I"lng;Tf22.3117030697085I"
+types;T[I"
+route;T:@cache_hit0I"40.763901,23.21548425;F[o;;{	I"address_components;T[{I"long_name;TI"(Eparchiaki Odos Lagadas-Evagelismou;TI"short_name;TI"!Epar.Od. Lagadas-Evagelismou;TI"
+types;T[I"
+route;T{I"long_name;TI"7Ethniko Parko Igrotopon Limnon Koronias kai Tempon;TI"short_name;TI"7Ethniko Parko Igrotopon Limnon Koronias kai Tempon;TI"
+types;T[I"establishment;T{I"long_name;TI"Vertiskos;TI"short_name;TI"Vertiskos;TI"
+types;T[I"political;T{I"long_name;TI"Lagkadas;TI"short_name;TI"Lagkadas;TI"
+types;T[I"political;T{I"long_name;TI"Thessaloniki;TI"short_name;TI"Thessaloniki;TI"
+types;T[I" administrative_area_level_3;TI"political;T{I"long_name;TI"Kentriki Makedonia;TI"short_name;TI"Kentriki Makedonia;TI"
+types;T[I" administrative_area_level_2;TI"political;T{I"long_name;TI"Makedonia Thraki;TI"short_name;TI"Makedonia Thraki;TI"
+types;T[I" administrative_area_level_1;TI"political;T{I"long_name;TI"Greece;TI"short_name;TI"GR;TI"
+types;T[I"country;TI"political;T{I"long_name;TI"570 02;TI"short_name;TI"570 02;TI"
+types;T[I"postal_code;TI"formatted_address;TI"uEparchiaki Odos Lagadas-Evagelismou, Ethniko Parko Igrotopon Limnon Koronias kai Tempon, Lagkadas 570 02, Greece;TI"geometry;T{	I"bounds;T{I"northeast;T{I"lat;Tf40.7800742I"lng;Tf23.2000528I"southwest;T{I"lat;Tf40.7777712I"lng;Tf23.1928928I"location;T{I"lat;Tf40.7788936I"lng;Tf23.1965003I"location_type;TI"APPROXIMATE;TI"viewport;T{I"northeast;T{I"lat;Tf40.78027168029151I"lng;Tf23.2000528I"southwest;T{I"lat;Tf40.77757371970851I"lng;Tf23.1928928I"
+types;T[I"
+route;T;0I"40.763901,24.1177365;F[o;;{	I"address_components;T[{I"long_name;TI"Ethniki Odos 2;TI"short_name;TI"EO2;TI"
+types;T[I"
+route;T{I"long_name;TI"Eleftheres;TI"short_name;TI"Eleftheres;TI"
+types;T[I"political;T{I"long_name;TI"Paggeo;TI"short_name;TI"Paggeo;TI"
+types;T[I"political;T{I"long_name;TI"Kavala;TI"short_name;TI"Kavala;TI"
+types;T[I" administrative_area_level_3;TI"political;T{I"long_name;TI"East Macedonia and Thrace;TI"short_name;TI"East Macedonia and Thrace;TI"
+types;T[I" administrative_area_level_2;TI"political;T{I"long_name;TI"Makedonia Thraki;TI"short_name;TI"Makedonia Thraki;TI"
+types;T[I" administrative_area_level_1;TI"political;T{I"long_name;TI"Greece;TI"short_name;TI"GR;TI"
+types;T[I"country;TI"political;T{I"long_name;TI"640 07;TI"short_name;TI"640 07;TI"
+types;T[I"postal_code;TI"formatted_address;TI"*Ethniki Odos 2, Paggeo 640 07, Greece;TI"geometry;T{	I"bounds;T{I"northeast;T{I"lat;Tf40.7416726I"lng;Tf24.1429239I"southwest;T{I"lat;Tf40.7360396I"lng;Tf24.1258184I"location;T{I"lat;Tf40.7375775I"lng;Tf24.135185I"location_type;TI"APPROXIMATE;TI"viewport;T{I"northeast;T{I"lat;Tf40.7416726I"lng;Tf24.1429239I"southwest;T{I"lat;Tf40.7360396I"lng;Tf24.1258184I"
+types;T[I"
+route;T;0I"40.763901,25.01998875;F[o;;{	I"address_components;T[{I"long_name;TI"Greece;TI"short_name;TI"GR;TI"
+types;T[I"country;TI"political;TI"formatted_address;TI"Greece;TI"geometry;T{	I"bounds;T{I"northeast;T{I"lat;Tf41.7490577I"lng;Tf29.6451476I"southwest;T{I"lat;Tf34.8010211I"lng;Tf19.3724227I"location;T{I"lat;Tf39.074208I"lng;Tf21.824312I"location_type;TI"APPROXIMATE;TI"viewport;T{I"northeast;T{I"lat;Tf41.7490577I"lng;Tf28.2469559I"southwest;T{I"lat;Tf34.8010211I"lng;Tf19.3735874I"
+types;T[I"country;TI"political;T;0I"40.763901,25.922241;F[o;;{	I"address_components;T[{I"long_name;TI"48;TI"short_name;TI"48;TI"
+types;T[I"street_number;T{I"long_name;TI"Moudanion;TI"short_name;TI"Moudanion;TI"
+types;T[I"
+route;T{I"long_name;TI"Alexandroupolis;TI"short_name;TI"Alexandroupolis;TI"
+types;T[I"locality;TI"political;T{I"long_name;TI"Alexandroupoli;TI"short_name;TI"Alexandroupoli;TI"
+types;T[I"political;T{I"long_name;TI"Alexandroupoli;TI"short_name;TI"Alexandroupoli;TI"
+types;T[I"political;T{I"long_name;TI"
+Evros;TI"short_name;TI"
+Evros;TI"
+types;T[I" administrative_area_level_3;TI"political;T{I"long_name;TI"East Macedonia and Thrace;TI"short_name;TI"East Macedonia and Thrace;TI"
+types;T[I" administrative_area_level_2;TI"political;T{I"long_name;TI"Makedonia Thraki;TI"short_name;TI"Makedonia Thraki;TI"
+types;T[I" administrative_area_level_1;TI"political;T{I"long_name;TI"Greece;TI"short_name;TI"GR;TI"
+types;T[I"country;TI"political;T{I"long_name;TI"681 00;TI"short_name;TI"681 00;TI"
+types;T[I"postal_code;TI"formatted_address;TI"1Moudanion 48, Alexandroupolis 681 00, Greece;TI"geometry;T{I"location;T{I"lat;Tf40.8425353I"lng;Tf25.8665621I"location_type;TI"ROOFTOP;TI"viewport;T{I"northeast;T{I"lat;Tf40.8438842802915I"lng;Tf25.8679110802915I"southwest;T{I"lat;Tf40.84118631970851I"lng;Tf25.8652131197085I"
+types;T[I"street_address;T;0I"40.763901,26.82449325;F[o;;{	I"address_components;T[
+{I"long_name;TI"Yenidibek Köyü Yolu;TI"short_name;TI"Yenidibek Köyü Yolu;TI"
+types;T[I"
+route;T{I"long_name;TI"Yenidibek;TI"short_name;TI"Yenidibek;TI"
+types;T[I"locality;TI"political;T{I"long_name;TI"Malkara;TI"short_name;TI"Malkara;TI"
+types;T[I" administrative_area_level_2;TI"political;T{I"long_name;TI"Tekirdag;TI"short_name;TI"Tekirdag;TI"
+types;T[I" administrative_area_level_1;TI"political;T{I"long_name;TI"Turkey;TI"short_name;TI"TR;TI"
+types;T[I"country;TI"political;TI"formatted_address;TI"@Yenidibek Köyü Yolu, Yenidibek/Tekirdağ Province, Turkey;TI"geometry;T{	I"bounds;T{I"northeast;T{I"lat;Tf40.772205I"lng;Tf26.833049I"southwest;T{I"lat;Tf40.77157500000001I"lng;Tf26.832113I"location;T{I"lat;Tf40.7718405I"lng;Tf26.8325254I"location_type;TI"APPROXIMATE;TI"viewport;T{I"northeast;T{I"lat;Tf40.7732389802915I"lng;Tf26.8339299802915I"southwest;T{I"lat;Tf40.7705410197085I"lng;Tf26.8312320197085I"
+types;T[I"
+route;T;0I"40.763901,27.7267455;F[o;;{	I"address_components;T[	{I"long_name;TI"Atatürk Caddesi;TI"short_name;TI"Atatürk Cd;TI"
+types;T[I"
+route;T{I"long_name;TI"Marmara District;TI"short_name;TI"Marmara District;TI"
+types;T[I" administrative_area_level_2;TI"political;T{I"long_name;TI"Balıkesir Province;TI"short_name;TI"Balıkesir Province;TI"
+types;T[I" administrative_area_level_1;TI"political;T{I"long_name;TI"Turkey;TI"short_name;TI"TR;TI"
+types;T[I"country;TI"political;TI"formatted_address;TI"2Atatürk Caddesi, Balıkesir Province, Turkey;TI"geometry;T{	I"bounds;T{I"northeast;T{I"lat;Tf40.656278I"lng;Tf27.669058I"southwest;T{I"lat;Tf40.65497999999999I"lng;Tf27.664628I"location;T{I"lat;Tf40.6560213I"lng;Tf27.6668325I"location_type;TI"APPROXIMATE;TI"viewport;T{I"northeast;T{I"lat;Tf40.65697798029149I"lng;Tf27.669058I"southwest;T{I"lat;Tf40.65428001970849I"lng;Tf27.664628I"
+types;T[I"
+route;T;0I"40.763901,28.62899775;F[o;;{	I"address_components;T[{I"long_name;TI"Sea of Marmara;TI"short_name;TI"Sea of Marmara;TI"
+types;T[I"natural_feature;TI"establishment;TI"formatted_address;TI"Sea of Marmara;TI"geometry;T{	I"bounds;T{I"northeast;T{I"lat;Tf41.2138394I"lng;Tf29.9438167I"southwest;T{I"lat;Tf39.9982409I"lng;Tf26.1889985I"location;T{I"lat;Tf40.6681407I"lng;Tf28.1122679I"location_type;TI"APPROXIMATE;TI"viewport;T{I"northeast;T{I"lat;Tf41.2138394I"lng;Tf29.9438167I"southwest;T{I"lat;Tf39.9982409I"lng;Tf26.1889985I"
+types;T[I"natural_feature;TI"establishment;T;0I"40.763901,29.53125;F[o;;{	I"address_components;T[{I"long_name;TI"Sanayi Caddesi;TI"short_name;TI"Sanayi Cd;TI"
+types;T[I"
+route;T{I"long_name;TI"Fatih Mh.;TI"short_name;TI"Fatih Mh.;TI"
+types;T[I"neighborhood;TI"political;T{I"long_name;TI"Dilovası;TI"short_name;TI"Dilovası;TI"
+types;T[I" administrative_area_level_2;TI"political;T{I"long_name;TI"Kocaeli Province;TI"short_name;TI"Kocaeli Province;TI"
+types;T[I" administrative_area_level_1;TI"political;T{I"long_name;TI"Turkey;TI"short_name;TI"TR;TI"
+types;T[I"country;TI"political;T{I"long_name;TI"
+41455;TI"short_name;TI"
+41455;TI"
+types;T[I"postal_code;TI"formatted_address;TI">Fatih Mh., Sanayi Caddesi, 41455 Kocaeli Province, Turkey;TI"geometry;T{	I"bounds;T{I"northeast;T{I"lat;Tf40.769493I"lng;Tf29.533574I"southwest;T{I"lat;Tf40.769442I"lng;Tf29.53256I"location;T{I"lat;Tf40.7694675I"lng;Tf29.533067I"location_type;TI"APPROXIMATE;TI"viewport;T{I"northeast;T{I"lat;Tf40.77081648029149I"lng;Tf29.5344159802915I"southwest;T{I"lat;Tf40.76811851970849I"lng;Tf29.5317180197085I"
+types;T[I"
+route;T;0I"!41.485318199999995,22.313232;F[o;;{	I"address_components;T[{I"long_name;TI"M1;TI"short_name;TI"M1;TI"
+types;T[I"
+route;T{I"long_name;TI"!Municipality of Demir Kapija;TI"short_name;TI"!Municipality of Demir Kapija;TI"
+types;T[I" administrative_area_level_1;TI"political;T{I"long_name;TI"Macedonia (FYROM);TI"short_name;TI"MK;TI"
+types;T[I"country;TI"political;TI"formatted_address;TI"M1, Macedonia (FYROM);TI"geometry;T{	I"bounds;T{I"northeast;T{I"lat;Tf41.44879419999999I"lng;Tf22.2083272I"southwest;T{I"lat;Tf41.41632540000001I"lng;Tf22.1769923I"location;T{I"lat;Tf41.42746289999999I"lng;Tf22.1851463I"location_type;TI"APPROXIMATE;TI"viewport;T{I"northeast;T{I"lat;Tf41.44879419999999I"lng;Tf22.2083272I"southwest;T{I"lat;Tf41.41632540000001I"lng;Tf22.1769923I"
+types;T[I"
+route;T;0I"#41.485318199999995,23.21548425;F[o;;{	I"address_components;T[{I"long_name;TI"	1084;TI"short_name;TI"	1084;TI"
+types;T[I"
+route;T{I"long_name;TI"Starchevo;TI"short_name;TI"Starchevo;TI"
+types;T[I"locality;TI"political;T{I"long_name;TI"Petrich;TI"short_name;TI"Petrich;TI"
+types;T[I" administrative_area_level_2;TI"political;T{I"long_name;TI"Blagoevgrad Province;TI"short_name;TI"Blagoevgrad Province;TI"
+types;T[I" administrative_area_level_1;TI"political;T{I"long_name;TI"Bulgaria;TI"short_name;TI"BG;TI"
+types;T[I"country;TI"political;T{I"long_name;TI"	2861;TI"short_name;TI"	2861;TI"
+types;T[I"postal_code;TI"formatted_address;TI"#1084, 2861 Starchevo, Bulgaria;TI"geometry;T{	I"bounds;T{I"northeast;T{I"lat;Tf41.472914I"lng;Tf23.2312541I"southwest;T{I"lat;Tf41.472716I"lng;Tf23.231111I"location;T{I"lat;Tf41.4728231I"lng;Tf23.2312032I"location_type;TI"APPROXIMATE;TI"viewport;T{I"northeast;T{I"lat;Tf41.4741639802915I"lng;Tf23.2325315302915I"southwest;T{I"lat;Tf41.4714660197085I"lng;Tf23.2298335697085I"
+types;T[I"
+route;T;0I""41.485318199999995,24.1177365;F[o;;{	I"address_components;T[{I"long_name;TI"*Eparchiaki Odos K.Nevrokopiou-Potamon;TI"short_name;TI"#Epar.Od. K.Nevrokopiou-Potamon;TI"
+types;T[I"
+route;T{I"long_name;TI"Kato Nevrokopi;TI"short_name;TI"Kato Nevrokopi;TI"
+types;T[I"political;T{I"long_name;TI"Kato Nevrokopi;TI"short_name;TI"Kato Nevrokopi;TI"
+types;T[I"political;T{I"long_name;TI"
+Drama;TI"short_name;TI"
+Drama;TI"
+types;T[I" administrative_area_level_3;TI"political;T{I"long_name;TI"East Macedonia and Thrace;TI"short_name;TI"East Macedonia and Thrace;TI"
+types;T[I" administrative_area_level_2;TI"political;T{I"long_name;TI"Makedonia Thraki;TI"short_name;TI"Makedonia Thraki;TI"
+types;T[I" administrative_area_level_1;TI"political;T{I"long_name;TI"Greece;TI"short_name;TI"GR;TI"
+types;T[I"country;TI"political;T{I"long_name;TI"660 33;TI"short_name;TI"660 33;TI"
+types;T[I"postal_code;TI"formatted_address;TI"IEparchiaki Odos K.Nevrokopiou-Potamon, Kato Nevrokopi 660 33, Greece;TI"geometry;T{	I"bounds;T{I"northeast;T{I"lat;Tf41.4219382I"lng;Tf24.1438413I"southwest;T{I"lat;Tf41.4170773I"lng;Tf24.1337545I"location;T{I"lat;Tf41.4216492I"lng;Tf24.1424548I"location_type;TI"APPROXIMATE;TI"viewport;T{I"northeast;T{I"lat;Tf41.4219382I"lng;Tf24.1438413I"southwest;T{I"lat;Tf41.4170773I"lng;Tf24.1337545I"
+types;T[I"
+route;T;0I"#41.485318199999995,25.01998875;F[o;;{	I"address_components;T[{I"long_name;TI"867;TI"short_name;TI"867;TI"
+types;T[I"
+route;T{I"long_name;TI"Fabrika;TI"short_name;TI"Fabrika;TI"
+types;T[I"locality;TI"political;T{I"long_name;TI"Zlatograd;TI"short_name;TI"Zlatograd;TI"
+types;T[I" administrative_area_level_2;TI"political;T{I"long_name;TI"Smoljan;TI"short_name;TI"Smoljan;TI"
+types;T[I" administrative_area_level_1;TI"political;T{I"long_name;TI"Bulgaria;TI"short_name;TI"BG;TI"
+types;T[I"country;TI"political;T{I"long_name;TI"	4992;TI"short_name;TI"	4992;TI"
+types;T[I"postal_code;TI"formatted_address;TI" 867, 4992 Fabrika, Bulgaria;TI"geometry;T{	I"bounds;T{I"northeast;T{I"lat;Tf41.4469945I"lng;Tf24.999449I"southwest;T{I"lat;Tf41.4460877I"lng;Tf24.9981245I"location;T{I"lat;Tf41.4465983I"lng;Tf24.9987045I"location_type;TI"APPROXIMATE;TI"viewport;T{I"northeast;T{I"lat;Tf41.4478900802915I"lng;Tf25.0001357302915I"southwest;T{I"lat;Tf41.4451921197085I"lng;Tf24.9974377697085I"
+types;T[I"
+route;T;0I"!41.485318199999995,25.922241;F[o;;{	I"address_components;T[{I"long_name;TI"	5906;TI"short_name;TI"	5906;TI"
+types;T[I"
+route;T{I"long_name;TI"Nova livada;TI"short_name;TI"Nova livada;TI"
+types;T[I"locality;TI"political;T{I"long_name;TI"Ivaylovgrad;TI"short_name;TI"Ivaylovgrad;TI"
+types;T[I" administrative_area_level_2;TI"political;T{I"long_name;TI"Haskovo;TI"short_name;TI"Haskovo;TI"
+types;T[I" administrative_area_level_1;TI"political;T{I"long_name;TI"Bulgaria;TI"short_name;TI"BG;TI"
+types;T[I"country;TI"political;T{I"long_name;TI"	6595;TI"short_name;TI"	6595;TI"
+types;T[I"postal_code;TI"formatted_address;TI"%5906, 6595 Nova livada, Bulgaria;TI"geometry;T{	I"bounds;T{I"northeast;T{I"lat;Tf41.48797039999999I"lng;Tf25.9428259I"southwest;T{I"lat;Tf41.4847507I"lng;Tf25.9416502I"location;T{I"lat;Tf41.4864332I"lng;Tf25.9418473I"location_type;TI"APPROXIMATE;TI"viewport;T{I"northeast;T{I"lat;Tf41.48797039999999I"lng;Tf25.9435870302915I"southwest;T{I"lat;Tf41.4847507I"lng;Tf25.9408890697085I"
+types;T[I"
+route;T;0I"#41.485318199999995,26.82449325;F[o;;{	I"address_components;T[
+{I"long_name;TI"Edirne Çanakkale Yolu;TI"short_name;TI"	D550;TI"
+types;T[I"
+route;T{I"long_name;TI"Kuzucu;TI"short_name;TI"Kuzucu;TI"
+types;T[I"locality;TI"political;T{I"long_name;TI"
+Havsa;TI"short_name;TI"
+Havsa;TI"
+types;T[I" administrative_area_level_2;TI"political;T{I"long_name;TI"Edirne Province;TI"short_name;TI"Edirne Province;TI"
+types;T[I" administrative_area_level_1;TI"political;T{I"long_name;TI"Turkey;TI"short_name;TI"TR;TI"
+types;T[I"country;TI"political;TI"formatted_address;TI";Edirne Çanakkale Yolu, Kuzucu/Edirne Province, Turkey;TI"geometry;T{	I"bounds;T{I"northeast;T{I"lat;Tf41.508919I"lng;Tf26.818273I"southwest;T{I"lat;Tf41.47362I"lng;Tf26.812704I"location;T{I"lat;Tf41.4910447I"lng;Tf26.8127874I"location_type;TI"APPROXIMATE;TI"viewport;T{I"northeast;T{I"lat;Tf41.508919I"lng;Tf26.818273I"southwest;T{I"lat;Tf41.47362I"lng;Tf26.812704I"
+types;T[I"
+route;T;0I""41.485318199999995,27.7267455;F[o;;{	I"address_components;T[
+{I"long_name;TI"Çövenli Köyü Yolu;TI"short_name;TI"Çövenli Köyü Yolu;TI"
+types;T[I"
+route;T{I"long_name;TI"Çövenli;TI"short_name;TI"Çövenli;TI"
+types;T[I"locality;TI"political;T{I"long_name;TI"	Vize;TI"short_name;TI"	Vize;TI"
+types;T[I" administrative_area_level_2;TI"political;T{I"long_name;TI"Kırklareli Province;TI"short_name;TI"Kırklareli Province;TI"
+types;T[I" administrative_area_level_1;TI"political;T{I"long_name;TI"Turkey;TI"short_name;TI"TR;TI"
+types;T[I"country;TI"political;TI"formatted_address;TI"BÇövenli Köyü Yolu, Çövenli/Kırklareli Province, Turkey;TI"geometry;T{	I"bounds;T{I"northeast;T{I"lat;Tf41.48815500000001I"lng;Tf27.695369I"southwest;T{I"lat;Tf41.486293I"lng;Tf27.694239I"location;T{I"lat;Tf41.4871299I"lng;Tf27.6945117I"location_type;TI"APPROXIMATE;TI"viewport;T{I"northeast;T{I"lat;Tf41.4885729802915I"lng;Tf27.6961529802915I"southwest;T{I"lat;Tf41.48587501970851I"lng;Tf27.6934550197085I"
+types;T[I"
+route;T;0I"#41.485318199999995,28.62899775;F[o;;{	I"address_components;T[{I"long_name;TI"Karacaköy Yalıköy Yolu;TI"short_name;TI"Karacaköy Yalıköy Yolu;TI"
+types;T[I"
+route;T{I"long_name;TI"Karacaköy Merkez Mh.;TI"short_name;TI"Karacaköy Merkez Mh.;TI"
+types;T[I"neighborhood;TI"political;T{I"long_name;TI"Karacaköy Merkez;TI"short_name;TI"Karacaköy Merkez;TI"
+types;T[I"locality;TI"political;T{I"long_name;TI"Çatalca;TI"short_name;TI"Çatalca;TI"
+types;T[I" administrative_area_level_2;TI"political;T{I"long_name;TI"Istanbul;TI"short_name;TI"Istanbul;TI"
+types;T[I" administrative_area_level_1;TI"political;T{I"long_name;TI"Turkey;TI"short_name;TI"TR;TI"
+types;T[I"country;TI"political;TI"formatted_address;TI"bKaracaköy Merkez Mh., Karacaköy Yalıköy Yolu, Karacaköy Merkez/Istanbul Province, Turkey;TI"geometry;T{	I"bounds;T{I"northeast;T{I"lat;Tf41.421439I"lng;Tf28.378186I"southwest;T{I"lat;Tf41.404114I"lng;Tf28.363797I"location;T{I"lat;Tf41.4142935I"lng;Tf28.3711183I"location_type;TI"APPROXIMATE;TI"viewport;T{I"northeast;T{I"lat;Tf41.421439I"lng;Tf28.378186I"southwest;T{I"lat;Tf41.404114I"lng;Tf28.363797I"
+types;T[I"
+route;T;0I" 41.485318199999995,29.53125;F[o;;{	I"address_components;T[{I"long_name;TI"Black Sea;TI"short_name;TI"Black Sea;TI"
+types;T[I"natural_feature;TI"establishment;TI"formatted_address;TI"Black Sea;TI"geometry;T{	I"bounds;T{I"northeast;T{I"lat;Tf46.627282I"lng;Tf41.776638I"southwest;T{I"lat;Tf40.90861I"lng;Tf27.4426426I"location;T{I"lat;Tf43.41302899999999I"lng;Tf34.299316I"location_type;TI"APPROXIMATE;TI"viewport;T{I"northeast;T{I"lat;Tf46.627282I"lng;Tf41.776638I"southwest;T{I"lat;Tf40.90861I"lng;Tf27.4426426I"
+types;T[I"natural_feature;TI"establishment;T;0I"42.2067354,22.313232;F[o;;{	I"address_components;T[	{I"long_name;TI"	E871;TI"short_name;TI"	E871;TI"
+types;T[I"
+route;T{I"long_name;TI"Kriva Palanka;TI"short_name;TI"Kriva Palanka;TI"
+types;T[I"locality;TI"political;T{I"long_name;TI""Municipality of Kriva Palanka;TI"short_name;TI""Municipality of Kriva Palanka;TI"
+types;T[I" administrative_area_level_1;TI"political;T{I"long_name;TI"Macedonia (FYROM);TI"short_name;TI"MK;TI"
+types;T[I"country;TI"political;TI"formatted_address;TI"+E871, Kriva Palanka, Macedonia (FYROM);TI"geometry;T{	I"bounds;T{I"northeast;T{I"lat;Tf42.19728449999999I"lng;Tf22.3145279I"southwest;T{I"lat;Tf42.1942886I"lng;Tf22.3095244I"location;T{I"lat;Tf42.1966547I"lng;Tf22.311062I"location_type;TI"APPROXIMATE;TI"viewport;T{I"northeast;T{I"lat;Tf42.19728449999999I"lng;Tf22.3145279I"southwest;T{I"lat;Tf42.1942886I"lng;Tf22.3095244I"
+types;T[I"
+route;T;0I""42.2067354,23.344377428571427;F[o;;{	I"address_components;T[{I"long_name;TI"	6206;TI"short_name;TI"	6206;TI"
+types;T[I"
+route;T{I"long_name;TI"	Rila;TI"short_name;TI"	Rila;TI"
+types;T[I"establishment;T{I"long_name;TI"Govedartsi;TI"short_name;TI"Govedartsi;TI"
+types;T[I"locality;TI"political;T{I"long_name;TI"Samokov;TI"short_name;TI"Samokov;TI"
+types;T[I" administrative_area_level_2;TI"political;T{I"long_name;TI"Sofia Province;TI"short_name;TI"Sofia Province;TI"
+types;T[I" administrative_area_level_1;TI"political;T{I"long_name;TI"Bulgaria;TI"short_name;TI"BG;TI"
+types;T[I"country;TI"political;TI"formatted_address;TI"%6206, Rila, Govedartsi, Bulgaria;TI"geometry;T{	I"bounds;T{I"northeast;T{I"lat;Tf42.2281284I"lng;Tf23.3585435I"southwest;T{I"lat;Tf42.2257371I"lng;Tf23.3504598I"location;T{I"lat;Tf42.2271176I"lng;Tf23.353368I"location_type;TI"APPROXIMATE;TI"viewport;T{I"northeast;T{I"lat;Tf42.2282817302915I"lng;Tf23.3585435I"southwest;T{I"lat;Tf42.2255837697085I"lng;Tf23.3504598I"
+types;T[I"
+route;T;0I""42.2067354,24.375522857142858;F[o;;{	I"address_components;T[{I"long_name;TI"	3703;TI"short_name;TI"	3703;TI"
+types;T[I"
+route;T{I"long_name;TI"Pazardzhik;TI"short_name;TI"Pazardzhik;TI"
+types;T[I"locality;TI"political;T{I"long_name;TI"Pazardjik;TI"short_name;TI"Pazardjik;TI"
+types;T[I" administrative_area_level_2;TI"political;T{I"long_name;TI"Pazardzik;TI"short_name;TI"Pazardzik;TI"
+types;T[I" administrative_area_level_1;TI"political;T{I"long_name;TI"Bulgaria;TI"short_name;TI"BG;TI"
+types;T[I"country;TI"political;T{I"long_name;TI"	4405;TI"short_name;TI"	4405;TI"
+types;T[I"postal_code;TI"formatted_address;TI"$3703, 4405 Pazardzhik, Bulgaria;TI"geometry;T{	I"bounds;T{I"northeast;T{I"lat;Tf42.2115427I"lng;Tf24.3769742I"southwest;T{I"lat;Tf42.2113308I"lng;Tf24.3754651I"location;T{I"lat;Tf42.2114368I"lng;Tf24.3762197I"location_type;TI"APPROXIMATE;TI"viewport;T{I"northeast;T{I"lat;Tf42.21278573029149I"lng;Tf24.3775686302915I"southwest;T{I"lat;Tf42.21008776970849I"lng;Tf24.3748706697085I"
+types;T[I"
+route;T;0I""42.2067354,25.406668285714286;F[o;;{	I"address_components;T[{I"long_name;TI"66;TI"short_name;TI"66;TI"
+types;T[I"
+route;T{I"long_name;TI"Svoboda;TI"short_name;TI"Svoboda;TI"
+types;T[I"locality;TI"political;T{I"long_name;TI"Chirpan;TI"short_name;TI"Chirpan;TI"
+types;T[I" administrative_area_level_2;TI"political;T{I"long_name;TI"Stara Zagora;TI"short_name;TI"Stara Zagora;TI"
+types;T[I" administrative_area_level_1;TI"political;T{I"long_name;TI"Bulgaria;TI"short_name;TI"BG;TI"
+types;T[I"country;TI"political;T{I"long_name;TI"	6231;TI"short_name;TI"	6231;TI"
+types;T[I"postal_code;TI"formatted_address;TI"66, 6231 Svoboda, Bulgaria;TI"geometry;T{	I"bounds;T{I"northeast;T{I"lat;Tf42.2206786I"lng;Tf25.3846425I"southwest;T{I"lat;Tf42.2205893I"lng;Tf25.3845467I"location;T{I"lat;Tf42.220634I"lng;Tf25.3845946I"location_type;TI"APPROXIMATE;TI"viewport;T{I"northeast;T{I"lat;Tf42.2219829302915I"lng;Tf25.3859435802915I"southwest;T{I"lat;Tf42.2192849697085I"lng;Tf25.38324561970849I"
+types;T[I"
+route;T;0I""42.2067354,26.437813714285713;F[o;;{	I"address_components;T[{I"long_name;TI"	7008;TI"short_name;TI"	7008;TI"
+types;T[I"
+route;T{I"long_name;TI"Malak manastir;TI"short_name;TI"Malak manastir;TI"
+types;T[I"locality;TI"political;T{I"long_name;TI"Elhovo;TI"short_name;TI"Elhovo;TI"
+types;T[I" administrative_area_level_2;TI"political;T{I"long_name;TI"Jambol;TI"short_name;TI"Jambol;TI"
+types;T[I" administrative_area_level_1;TI"political;T{I"long_name;TI"Bulgaria;TI"short_name;TI"BG;TI"
+types;T[I"country;TI"political;T{I"long_name;TI"	8742;TI"short_name;TI"	8742;TI"
+types;T[I"postal_code;TI"formatted_address;TI"(7008, 8742 Malak manastir, Bulgaria;TI"geometry;T{	I"bounds;T{I"northeast;T{I"lat;Tf42.1990877I"lng;Tf26.4223252I"southwest;T{I"lat;Tf42.1972838I"lng;Tf26.4211217I"location;T{I"lat;Tf42.1983494I"lng;Tf26.4213417I"location_type;TI"APPROXIMATE;TI"viewport;T{I"northeast;T{I"lat;Tf42.1995347302915I"lng;Tf26.4230724302915I"southwest;T{I"lat;Tf42.1968367697085I"lng;Tf26.4203744697085I"
+types;T[I"
+route;T;0I""42.2067354,27.468959142857145;F[o;;{	I"address_components;T[{I"long_name;TI"9;TI"short_name;TI"9;TI"
+types;T[I"
+route;T{I"long_name;TI"Indzhe voyvoda;TI"short_name;TI"Indzhe voyvoda;TI"
+types;T[I"locality;TI"political;T{I"long_name;TI"Sozopol;TI"short_name;TI"Sozopol;TI"
+types;T[I" administrative_area_level_2;TI"political;T{I"long_name;TI"Burgas;TI"short_name;TI"Burgas;TI"
+types;T[I" administrative_area_level_1;TI"political;T{I"long_name;TI"Bulgaria;TI"short_name;TI"BG;TI"
+types;T[I"country;TI"political;T{I"long_name;TI"	8149;TI"short_name;TI"	8149;TI"
+types;T[I"postal_code;TI"formatted_address;TI"%9, 8149 Indzhe voyvoda, Bulgaria;TI"geometry;T{	I"bounds;T{I"northeast;T{I"lat;Tf42.2247565I"lng;Tf27.4510704I"southwest;T{I"lat;Tf42.2200731I"lng;Tf27.4481941I"location;T{I"lat;Tf42.22211000000001I"lng;Tf27.45047I"location_type;TI"APPROXIMATE;TI"viewport;T{I"northeast;T{I"lat;Tf42.2247565I"lng;Tf27.4510704I"southwest;T{I"lat;Tf42.2200731I"lng;Tf27.4481941I"
+types;T[I"
+route;T;0I""42.2067354,28.500104571428572;F[o;;{	I"address_components;T[{I"long_name;TI"Black Sea;TI"short_name;TI"Black Sea;TI"
+types;T[I"natural_feature;TI"establishment;TI"formatted_address;TI"Black Sea;TI"geometry;T{	I"bounds;T{I"northeast;T{I"lat;Tf46.627282I"lng;Tf41.776638I"southwest;T{I"lat;Tf40.90861I"lng;Tf27.4426426I"location;T{I"lat;Tf43.41302899999999I"lng;Tf34.299316I"location_type;TI"APPROXIMATE;TI"viewport;T{I"northeast;T{I"lat;Tf46.627282I"lng;Tf41.776638I"southwest;T{I"lat;Tf40.90861I"lng;Tf27.4426426I"
+types;T[I"natural_feature;TI"establishment;T;0I"42.2067354,29.53125;F[o;;{	I"address_components;T[{I"long_name;TI"Black Sea;TI"short_name;TI"Black Sea;TI"
+types;T[I"natural_feature;TI"establishment;TI"formatted_address;TI"Black Sea;TI"geometry;T{	I"bounds;T{I"northeast;T{I"lat;Tf46.627282I"lng;Tf41.776638I"southwest;T{I"lat;Tf40.90861I"lng;Tf27.4426426I"location;T{I"lat;Tf43.41302899999999I"lng;Tf34.299316I"location_type;TI"APPROXIMATE;TI"viewport;T{I"northeast;T{I"lat;Tf46.627282I"lng;Tf41.776638I"southwest;T{I"lat;Tf40.90861I"lng;Tf27.4426426I"
+types;T[I"natural_feature;TI"establishment;T;0I"42.9281526,22.313232;F[o;;{	I"address_components;T[{I"long_name;TI"122;TI"short_name;TI"122;TI"
+types;T[I"
+route;T{I"long_name;TI"Jablanica District;TI"short_name;TI"Jablanica District;TI"
+types;T[I" administrative_area_level_2;TI"political;T{I"long_name;TI"Serbia;TI"short_name;TI"RS;TI"
+types;T[I"country;TI"political;TI"formatted_address;TI"122, Serbia;TI"geometry;T{	I"bounds;T{I"northeast;T{I"lat;Tf42.9314359I"lng;Tf22.3185647I"southwest;T{I"lat;Tf42.9285333I"lng;Tf22.313962I"location;T{I"lat;Tf42.9302762I"lng;Tf22.3165949I"location_type;TI"APPROXIMATE;TI"viewport;T{I"northeast;T{I"lat;Tf42.9314359I"lng;Tf22.3185647I"southwest;T{I"lat;Tf42.9285333I"lng;Tf22.313962I"
+types;T[I"
+route;T;0I""42.9281526,23.344377428571427;F[o;;{	I"address_components;T[
+{I"long_name;TI"	8102;TI"short_name;TI"	8102;TI"
+types;T[I"
+route;T{I"long_name;TI"Svidnya;TI"short_name;TI"Svidnya;TI"
+types;T[I"locality;TI"political;T{I"long_name;TI"
+Svoge;TI"short_name;TI"
+Svoge;TI"
+types;T[I" administrative_area_level_2;TI"political;T{I"long_name;TI"Sofia Province;TI"short_name;TI"Sofia Province;TI"
+types;T[I" administrative_area_level_1;TI"political;T{I"long_name;TI"Bulgaria;TI"short_name;TI"BG;TI"
+types;T[I"country;TI"political;TI"formatted_address;TI"8102, Svidnya, Bulgaria;TI"geometry;T{	I"bounds;T{I"northeast;T{I"lat;Tf42.9462683I"lng;Tf23.2677619I"southwest;T{I"lat;Tf42.933921I"lng;Tf23.2556315I"location;T{I"lat;Tf42.9380311I"lng;Tf23.2604866I"location_type;TI"APPROXIMATE;TI"viewport;T{I"northeast;T{I"lat;Tf42.9462683I"lng;Tf23.2677619I"southwest;T{I"lat;Tf42.933921I"lng;Tf23.2556315I"
+types;T[I"
+route;T;0I""42.9281526,24.375522857142858;F[o;;{	I"address_components;T[{I"long_name;TI"358;TI"short_name;TI"358;TI"
+types;T[I"
+route;T{I"long_name;TI"Teteven;TI"short_name;TI"Teteven;TI"
+types;T[I"locality;TI"political;T{I"long_name;TI"Teteven;TI"short_name;TI"Teteven;TI"
+types;T[I" administrative_area_level_2;TI"political;T{I"long_name;TI"
+Lovec;TI"short_name;TI"
+Lovec;TI"
+types;T[I" administrative_area_level_1;TI"political;T{I"long_name;TI"Bulgaria;TI"short_name;TI"BG;TI"
+types;T[I"country;TI"political;T{I"long_name;TI"	5700;TI"short_name;TI"	5700;TI"
+types;T[I"postal_code;TI"formatted_address;TI" 358, 5700 Teteven, Bulgaria;TI"geometry;T{	I"bounds;T{I"northeast;T{I"lat;Tf42.9240028I"lng;Tf24.2500976I"southwest;T{I"lat;Tf42.9218991I"lng;Tf24.2487777I"location;T{I"lat;Tf42.9230458I"lng;Tf24.249672I"location_type;TI"APPROXIMATE;TI"viewport;T{I"northeast;T{I"lat;Tf42.92429993029149I"lng;Tf24.2507866302915I"southwest;T{I"lat;Tf42.92160196970849I"lng;Tf24.2480886697085I"
+types;T[I"
+route;T;0I""42.9281526,25.406668285714286;F[o;;{	I"address_components;T[{I"long_name;TI"E85;TI"short_name;TI"E85;TI"
+types;T[I"
+route;T{I"long_name;TI"Lesicharka;TI"short_name;TI"Lesicharka;TI"
+types;T[I"locality;TI"political;T{I"long_name;TI"Gabrovo;TI"short_name;TI"Gabrovo;TI"
+types;T[I" administrative_area_level_2;TI"political;T{I"long_name;TI"Gabrovo;TI"short_name;TI"Gabrovo;TI"
+types;T[I" administrative_area_level_1;TI"political;T{I"long_name;TI"Bulgaria;TI"short_name;TI"BG;TI"
+types;T[I"country;TI"political;T{I"long_name;TI"	5343;TI"short_name;TI"	5343;TI"
+types;T[I"postal_code;TI"formatted_address;TI"#E85, 5343 Lesicharka, Bulgaria;TI"geometry;T{	I"bounds;T{I"northeast;T{I"lat;Tf42.9370845I"lng;Tf25.4084455I"southwest;T{I"lat;Tf42.9349193I"lng;Tf25.3992268I"location;T{I"lat;Tf42.9357114I"lng;Tf25.4044385I"location_type;TI"APPROXIMATE;TI"viewport;T{I"northeast;T{I"lat;Tf42.9373508802915I"lng;Tf25.4084455I"southwest;T{I"lat;Tf42.9346529197085I"lng;Tf25.3992268I"
+types;T[I"
+route;T;0I""42.9281526,26.437813714285713;F[o;;{	I"address_components;T[{I"long_name;TI"48;TI"short_name;TI"48;TI"
+types;T[I"
+route;T{I"long_name;TI"
+Ticha;TI"short_name;TI"
+Ticha;TI"
+types;T[I"locality;TI"political;T{I"long_name;TI"
+Kotel;TI"short_name;TI"
+Kotel;TI"
+types;T[I" administrative_area_level_2;TI"political;T{I"long_name;TI"Sliven Province;TI"short_name;TI"Sliven Province;TI"
+types;T[I" administrative_area_level_1;TI"political;T{I"long_name;TI"Bulgaria;TI"short_name;TI"BG;TI"
+types;T[I"country;TI"political;T{I"long_name;TI"	8980;TI"short_name;TI"	8980;TI"
+types;T[I"postal_code;TI"formatted_address;TI"48, 8980 Ticha, Bulgaria;TI"geometry;T{	I"bounds;T{I"northeast;T{I"lat;Tf42.940477I"lng;Tf26.4431079I"southwest;T{I"lat;Tf42.9296705I"lng;Tf26.435451I"location;T{I"lat;Tf42.934543I"lng;Tf26.437815I"location_type;TI"APPROXIMATE;TI"viewport;T{I"northeast;T{I"lat;Tf42.940477I"lng;Tf26.4431079I"southwest;T{I"lat;Tf42.9296705I"lng;Tf26.435451I"
+types;T[I"
+route;T;0I""42.9281526,27.468959142857145;F[o;;{	I"address_components;T[{I"long_name;TI"	2083;TI"short_name;TI"	2083;TI"
+types;T[I"
+route;T{I"long_name;TI"	Sava;TI"short_name;TI"	Sava;TI"
+types;T[I"locality;TI"political;T{I"long_name;TI"Dalgopol;TI"short_name;TI"Dalgopol;TI"
+types;T[I" administrative_area_level_2;TI"political;T{I"long_name;TI"
+Varna;TI"short_name;TI"
+Varna;TI"
+types;T[I" administrative_area_level_1;TI"political;T{I"long_name;TI"Bulgaria;TI"short_name;TI"BG;TI"
+types;T[I"country;TI"political;T{I"long_name;TI"	9251;TI"short_name;TI"	9251;TI"
+types;T[I"postal_code;TI"formatted_address;TI"2083, 9251 Sava, Bulgaria;TI"geometry;T{	I"bounds;T{I"northeast;T{I"lat;Tf43.034994I"lng;Tf27.3901336I"southwest;T{I"lat;Tf43.0346983I"lng;Tf27.3870472I"location;T{I"lat;Tf43.0348461I"lng;Tf27.3885904I"location_type;TI"APPROXIMATE;TI"viewport;T{I"northeast;T{I"lat;Tf43.03619513029149I"lng;Tf27.3901336I"southwest;T{I"lat;Tf43.0334971697085I"lng;Tf27.3870472I"
+types;T[I"
+route;T;0I""42.9281526,28.500104571428572;F[o;;{	I"address_components;T[{I"long_name;TI"Black Sea;TI"short_name;TI"Black Sea;TI"
+types;T[I"natural_feature;TI"establishment;TI"formatted_address;TI"Black Sea;TI"geometry;T{	I"bounds;T{I"northeast;T{I"lat;Tf46.627282I"lng;Tf41.776638I"southwest;T{I"lat;Tf40.90861I"lng;Tf27.4426426I"location;T{I"lat;Tf43.41302899999999I"lng;Tf34.299316I"location_type;TI"APPROXIMATE;TI"viewport;T{I"northeast;T{I"lat;Tf46.627282I"lng;Tf41.776638I"southwest;T{I"lat;Tf40.90861I"lng;Tf27.4426426I"
+types;T[I"natural_feature;TI"establishment;T;0I"42.9281526,29.53125;F[o;;{	I"address_components;T[{I"long_name;TI"Black Sea;TI"short_name;TI"Black Sea;TI"
+types;T[I"natural_feature;TI"establishment;TI"formatted_address;TI"Black Sea;TI"geometry;T{	I"bounds;T{I"northeast;T{I"lat;Tf46.627282I"lng;Tf41.776638I"southwest;T{I"lat;Tf40.90861I"lng;Tf27.4426426I"location;T{I"lat;Tf43.41302899999999I"lng;Tf34.299316I"location_type;TI"APPROXIMATE;TI"viewport;T{I"northeast;T{I"lat;Tf46.627282I"lng;Tf41.776638I"southwest;T{I"lat;Tf40.90861I"lng;Tf27.4426426I"
+types;T[I"natural_feature;TI"establishment;T;0I"43.6495698,22.313232;F[o;;{	I"address_components;T[	{I"long_name;TI"	247a;TI"short_name;TI"	247a;TI"
+types;T[I"
+route;T{I"long_name;TI"Петруша;TI"short_name;TI"Петруша;TI"
+types;T[I"locality;TI"political;T{I"long_name;TI"Zaječar District;TI"short_name;TI"Zaječar District;TI"
+types;T[I" administrative_area_level_2;TI"political;T{I"long_name;TI"Serbia;TI"short_name;TI"RS;TI"
+types;T[I"country;TI"political;TI"formatted_address;TI"!247a, Петруша, Serbia;TI"geometry;T{	I"bounds;T{I"northeast;T{I"lat;Tf43.6671033I"lng;Tf22.3307097I"southwest;T{I"lat;Tf43.6645111I"lng;Tf22.3257852I"location;T{I"lat;Tf43.6655407I"lng;Tf22.3279826I"location_type;TI"APPROXIMATE;TI"viewport;T{I"northeast;T{I"lat;Tf43.6671561802915I"lng;Tf22.3307097I"southwest;T{I"lat;Tf43.6644582197085I"lng;Tf22.3257852I"
+types;T[I"
+route;T;0I""43.6495698,23.344377428571427;F[o;;{	I"address_components;T[{I"long_name;TI"818;TI"short_name;TI"818;TI"
+types;T[I"
+route;T{I"long_name;TI"Yakimovo;TI"short_name;TI"Yakimovo;TI"
+types;T[I"locality;TI"political;T{I"long_name;TI"Yakimovo;TI"short_name;TI"Yakimovo;TI"
+types;T[I" administrative_area_level_2;TI"political;T{I"long_name;TI"Montana Province;TI"short_name;TI"Montana Province;TI"
+types;T[I" administrative_area_level_1;TI"political;T{I"long_name;TI"Bulgaria;TI"short_name;TI"BG;TI"
+types;T[I"country;TI"political;T{I"long_name;TI"	3640;TI"short_name;TI"	3640;TI"
+types;T[I"postal_code;TI"formatted_address;TI"!818, 3640 Yakimovo, Bulgaria;TI"geometry;T{	I"bounds;T{I"northeast;T{I"lat;Tf43.6436074I"lng;Tf23.3619123I"southwest;T{I"lat;Tf43.6420325I"lng;Tf23.3497182I"location;T{I"lat;Tf43.6428093I"lng;Tf23.3558178I"location_type;TI"APPROXIMATE;TI"viewport;T{I"northeast;T{I"lat;Tf43.6441689302915I"lng;Tf23.3619123I"southwest;T{I"lat;Tf43.6414709697085I"lng;Tf23.3497182I"
+types;T[I"
+route;T;0I""43.6495698,24.375522857142858;F[o;;{	I"address_components;T[{I"long_name;TI"11;TI"short_name;TI"11;TI"
+types;T[I"
+route;T{I"long_name;TI"Krushovene;TI"short_name;TI"Krushovene;TI"
+types;T[I"locality;TI"political;T{I"long_name;TI"Dolna Mitropolia;TI"short_name;TI"Dolna Mitropolia;TI"
+types;T[I" administrative_area_level_2;TI"political;T{I"long_name;TI"Pleven;TI"short_name;TI"Pleven;TI"
+types;T[I" administrative_area_level_1;TI"political;T{I"long_name;TI"Bulgaria;TI"short_name;TI"BG;TI"
+types;T[I"country;TI"political;T{I"long_name;TI"	5860;TI"short_name;TI"	5860;TI"
+types;T[I"postal_code;TI"formatted_address;TI""11, 5860 Krushovene, Bulgaria;TI"geometry;T{	I"bounds;T{I"northeast;T{I"lat;Tf43.6444812I"lng;Tf24.3786812I"southwest;T{I"lat;Tf43.6412655I"lng;Tf24.3671134I"location;T{I"lat;Tf43.64282010000001I"lng;Tf24.3728667I"location_type;TI"APPROXIMATE;TI"viewport;T{I"northeast;T{I"lat;Tf43.6444812I"lng;Tf24.3786812I"southwest;T{I"lat;Tf43.6412655I"lng;Tf24.3671134I"
+types;T[I"
+route;T;0I""43.6495698,25.406668285714286;F[o;;{	I"address_components;T[	{I"long_name;TI"	DN5C;TI"short_name;TI"	DN5C;TI"
+types;T[I"
+route;T{I"long_name;TI"Zimnicele;TI"short_name;TI"Zimnicele;TI"
+types;T[I"locality;TI"political;T{I"long_name;TI"Teleorman County;TI"short_name;TI"TR;TI"
+types;T[I" administrative_area_level_1;TI"political;T{I"long_name;TI"Romania;TI"short_name;TI"RO;TI"
+types;T[I"country;TI"political;TI"formatted_address;TI"DN5C, Zimnicele, Romania;TI"geometry;T{	I"bounds;T{I"northeast;T{I"lat;Tf43.659034I"lng;Tf25.4070314I"southwest;T{I"lat;Tf43.6585825I"lng;Tf25.4040303I"location;T{I"lat;Tf43.658805I"lng;Tf25.4055318I"location_type;TI"APPROXIMATE;TI"viewport;T{I"northeast;T{I"lat;Tf43.6601572302915I"lng;Tf25.4070314I"southwest;T{I"lat;Tf43.6574592697085I"lng;Tf25.4040303I"
+types;T[I"
+route;T;0I""43.6495698,26.437813714285713;F[o;;{	I"address_components;T[
+{I"long_name;TI"	2302;TI"short_name;TI"	2302;TI"
+types;T[I"
+route;T{I"long_name;TI"Topchii;TI"short_name;TI"Topchii;TI"
+types;T[I"locality;TI"political;T{I"long_name;TI"Razgrad;TI"short_name;TI"Razgrad;TI"
+types;T[I" administrative_area_level_2;TI"political;T{I"long_name;TI"Razgrad;TI"short_name;TI"Razgrad;TI"
+types;T[I" administrative_area_level_1;TI"political;T{I"long_name;TI"Bulgaria;TI"short_name;TI"BG;TI"
+types;T[I"country;TI"political;TI"formatted_address;TI"2302, Topchii, Bulgaria;TI"geometry;T{	I"bounds;T{I"northeast;T{I"lat;Tf43.6617278I"lng;Tf26.4517884I"southwest;T{I"lat;Tf43.6576584I"lng;Tf26.4169948I"location;T{I"lat;Tf43.659242I"lng;Tf26.4343075I"location_type;TI"APPROXIMATE;TI"viewport;T{I"northeast;T{I"lat;Tf43.6617278I"lng;Tf26.4517884I"southwest;T{I"lat;Tf43.6576584I"lng;Tf26.4169948I"
+types;T[I"
+route;T;0I""43.6495698,27.468959142857145;F[o;;{	I"address_components;T[{I"long_name;TI"	7106;TI"short_name;TI"	7106;TI"
+types;T[I"
+route;T{I"long_name;TI"Podslon;TI"short_name;TI"Podslon;TI"
+types;T[I"locality;TI"political;T{I"long_name;TI"Dobrich-Selska;TI"short_name;TI"Dobrich-Selska;TI"
+types;T[I" administrative_area_level_2;TI"political;T{I"long_name;TI"Dobrich Province;TI"short_name;TI"Dobrich Province;TI"
+types;T[I" administrative_area_level_1;TI"political;T{I"long_name;TI"Bulgaria;TI"short_name;TI"BG;TI"
+types;T[I"country;TI"political;T{I"long_name;TI"	9391;TI"short_name;TI"	9391;TI"
+types;T[I"postal_code;TI"formatted_address;TI"!7106, 9391 Podslon, Bulgaria;TI"geometry;T{	I"bounds;T{I"northeast;T{I"lat;Tf43.6793976I"lng;Tf27.4956374I"southwest;T{I"lat;Tf43.6749762I"lng;Tf27.4851316I"location;T{I"lat;Tf43.67707499999999I"lng;Tf27.4904316I"location_type;TI"APPROXIMATE;TI"viewport;T{I"northeast;T{I"lat;Tf43.6793976I"lng;Tf27.4956374I"southwest;T{I"lat;Tf43.6749762I"lng;Tf27.4851316I"
+types;T[I"
+route;T;0I""43.6495698,28.500104571428572;F[o;;{	I"address_components;T[{I"long_name;TI"E87;TI"short_name;TI"E87;TI"
+types;T[I"
+route;T{I"long_name;TI"Vaklino;TI"short_name;TI"Vaklino;TI"
+types;T[I"locality;TI"political;T{I"long_name;TI"Shabla;TI"short_name;TI"Shabla;TI"
+types;T[I" administrative_area_level_2;TI"political;T{I"long_name;TI"Dobrich Province;TI"short_name;TI"Dobrich Province;TI"
+types;T[I" administrative_area_level_1;TI"political;T{I"long_name;TI"Bulgaria;TI"short_name;TI"BG;TI"
+types;T[I"country;TI"political;T{I"long_name;TI"	9672;TI"short_name;TI"	9672;TI"
+types;T[I"postal_code;TI"formatted_address;TI" E87, 9672 Vaklino, Bulgaria;TI"geometry;T{	I"bounds;T{I"northeast;T{I"lat;Tf43.6506145I"lng;Tf28.5049172I"southwest;T{I"lat;Tf43.6480702I"lng;Tf28.5029538I"location;T{I"lat;Tf43.6494449I"lng;Tf28.5036392I"location_type;TI"APPROXIMATE;TI"viewport;T{I"northeast;T{I"lat;Tf43.65069133029149I"lng;Tf28.5052844802915I"southwest;T{I"lat;Tf43.64799336970849I"lng;Tf28.50258651970849I"
+types;T[I"
+route;T;0I"43.6495698,29.53125;F[o;;{	I"address_components;T[{I"long_name;TI"Black Sea;TI"short_name;TI"Black Sea;TI"
+types;T[I"natural_feature;TI"establishment;TI"formatted_address;TI"Black Sea;TI"geometry;T{	I"bounds;T{I"northeast;T{I"lat;Tf46.627282I"lng;Tf41.776638I"southwest;T{I"lat;Tf40.90861I"lng;Tf27.4426426I"location;T{I"lat;Tf43.41302899999999I"lng;Tf34.299316I"location_type;TI"APPROXIMATE;TI"viewport;T{I"northeast;T{I"lat;Tf46.627282I"lng;Tf41.776638I"southwest;T{I"lat;Tf40.90861I"lng;Tf27.4426426I"
+types;T[I"natural_feature;TI"establishment;T;0I"44.370987,22.313232;F[o;;{	I"address_components;T[	{I"long_name;TI"
+Л-30;TI"short_name;TI"
+Л-30;TI"
+types;T[I"
+route;T{I"long_name;TI"Vratna;TI"short_name;TI"Vratna;TI"
+types;T[I"locality;TI"political;T{I"long_name;TI"Bor District;TI"short_name;TI"Bor District;TI"
+types;T[I" administrative_area_level_2;TI"political;T{I"long_name;TI"Serbia;TI"short_name;TI"RS;TI"
+types;T[I"country;TI"political;TI"formatted_address;TI"Л-30, Vratna, Serbia;TI"geometry;T{	I"bounds;T{I"northeast;T{I"lat;Tf44.3825114I"lng;Tf22.3547423I"southwest;T{I"lat;Tf44.3776838I"lng;Tf22.3418689I"location;T{I"lat;Tf44.3803172I"lng;Tf22.3486409I"location_type;TI"APPROXIMATE;TI"viewport;T{I"northeast;T{I"lat;Tf44.3825114I"lng;Tf22.3547423I"southwest;T{I"lat;Tf44.3776838I"lng;Tf22.3418689I"
+types;T[I"
+route;T;0I"!44.370987,23.344377428571427;F[o;;{	I"address_components;T[	{I"long_name;TI"
+DJ606;TI"short_name;TI"
+DJ606;TI"
+types;T[I"
+route;T{I"long_name;TI"Răchita de Sus;TI"short_name;TI"Răchita de Sus;TI"
+types;T[I"locality;TI"political;T{I"long_name;TI"	Dolj;TI"short_name;TI"DJ;TI"
+types;T[I" administrative_area_level_1;TI"political;T{I"long_name;TI"Romania;TI"short_name;TI"RO;TI"
+types;T[I"country;TI"political;TI"formatted_address;TI"$DJ606, Răchita de Sus, Romania;TI"geometry;T{	I"bounds;T{I"northeast;T{I"lat;Tf44.3654897I"lng;Tf23.3471435I"southwest;T{I"lat;Tf44.3637276I"lng;Tf23.3374857I"location;T{I"lat;Tf44.3642707I"lng;Tf23.3422057I"location_type;TI"APPROXIMATE;TI"viewport;T{I"northeast;T{I"lat;Tf44.3659576302915I"lng;Tf23.3471435I"southwest;T{I"lat;Tf44.3632596697085I"lng;Tf23.3374857I"
+types;T[I"
+route;T;0I"!44.370987,24.375522857142858;F[o;;{	I"address_components;T[	{I"long_name;TI"	DC89;TI"short_name;TI"	DC89;TI"
+types;T[I"
+route;T{I"long_name;TI"	Ulmi;TI"short_name;TI"	Ulmi;TI"
+types;T[I"locality;TI"political;T{I"long_name;TI"Olt County;TI"short_name;TI"OT;TI"
+types;T[I" administrative_area_level_1;TI"political;T{I"long_name;TI"Romania;TI"short_name;TI"RO;TI"
+types;T[I"country;TI"political;TI"formatted_address;TI"DC89, Ulmi, Romania;TI"geometry;T{	I"bounds;T{I"northeast;T{I"lat;Tf44.3726475I"lng;Tf24.381893I"southwest;T{I"lat;Tf44.3669613I"lng;Tf24.3764051I"location;T{I"lat;Tf44.3701265I"lng;Tf24.3784007I"location_type;TI"APPROXIMATE;TI"viewport;T{I"northeast;T{I"lat;Tf44.3726475I"lng;Tf24.381893I"southwest;T{I"lat;Tf44.3669613I"lng;Tf24.3764051I"
+types;T[I"
+route;T;0I"!44.370987,25.406668285714286;F[o;;{	I"address_components;T[	{I"long_name;TI"
+DJ503;TI"short_name;TI"
+DJ503;TI"
+types;T[I"
+route;T{I"long_name;TI"Puranii de Sus;TI"short_name;TI"Puranii de Sus;TI"
+types;T[I"locality;TI"political;T{I"long_name;TI"Teleorman County;TI"short_name;TI"TR;TI"
+types;T[I" administrative_area_level_1;TI"political;T{I"long_name;TI"Romania;TI"short_name;TI"RO;TI"
+types;T[I"country;TI"political;TI"formatted_address;TI"#DJ503, Puranii de Sus, Romania;TI"geometry;T{	I"bounds;T{I"northeast;T{I"lat;Tf44.3671982I"lng;Tf25.4068023I"southwest;T{I"lat;Tf44.36700740000001I"lng;Tf25.4045534I"location;T{I"lat;Tf44.3671028I"lng;Tf25.4056779I"location_type;TI"APPROXIMATE;TI"viewport;T{I"northeast;T{I"lat;Tf44.3684517802915I"lng;Tf25.4070268302915I"southwest;T{I"lat;Tf44.3657538197085I"lng;Tf25.40432886970849I"
+types;T[I"
+route;T;0I"!44.370987,26.437813714285713;F[o;;{	I"address_components;T[	{I"long_name;TI"DJ401C;TI"short_name;TI"DJ401C;TI"
+types;T[I"
+route;T{I"long_name;TI"Progresu;TI"short_name;TI"Progresu;TI"
+types;T[I"locality;TI"political;T{I"long_name;TI"Călărași;TI"short_name;TI"CL;TI"
+types;T[I" administrative_area_level_1;TI"political;T{I"long_name;TI"Romania;TI"short_name;TI"RO;TI"
+types;T[I"country;TI"political;TI"formatted_address;TI"DJ401C, Progresu, Romania;TI"geometry;T{	I"bounds;T{I"northeast;T{I"lat;Tf44.357314I"lng;Tf26.4621696I"southwest;T{I"lat;Tf44.3560493I"lng;Tf26.4592391I"location;T{I"lat;Tf44.3566817I"lng;Tf26.4607043I"location_type;TI"APPROXIMATE;TI"viewport;T{I"northeast;T{I"lat;Tf44.35803063029149I"lng;Tf26.4621696I"southwest;T{I"lat;Tf44.3553326697085I"lng;Tf26.4592391I"
+types;T[I"
+route;T;0I"!44.370987,27.468959142857145;F[o;;{	I"address_components;T[{I"long_name;TI"Autostrada Soarelui;TI"short_name;TI"E81;TI"
+types;T[I"
+route;T{I"long_name;TI"Călărași;TI"short_name;TI"CL;TI"
+types;T[I" administrative_area_level_1;TI"political;T{I"long_name;TI"Romania;TI"short_name;TI"RO;TI"
+types;T[I"country;TI"political;TI"formatted_address;TI"!Autostrada Soarelui, Romania;TI"geometry;T{	I"bounds;T{I"northeast;T{I"lat;Tf44.3978309I"lng;Tf27.5238204I"southwest;T{I"lat;Tf44.3962671I"lng;Tf27.4601126I"location;T{I"lat;Tf44.3964237I"lng;Tf27.4919358I"location_type;TI"APPROXIMATE;TI"viewport;T{I"northeast;T{I"lat;Tf44.3983979802915I"lng;Tf27.5238204I"southwest;T{I"lat;Tf44.3957000197085I"lng;Tf27.4601126I"
+types;T[I"
+route;T;0I"!44.370987,28.500104571428572;F[ I"44.370987,29.53125;F[o;;{	I"address_components;T[{I"long_name;TI"Black Sea;TI"short_name;TI"Black Sea;TI"
+types;T[I"natural_feature;TI"establishment;TI"formatted_address;TI"Black Sea;TI"geometry;T{	I"bounds;T{I"northeast;T{I"lat;Tf46.627282I"lng;Tf41.776638I"southwest;T{I"lat;Tf40.90861I"lng;Tf27.4426426I"location;T{I"lat;Tf43.41302899999999I"lng;Tf34.299316I"location_type;TI"APPROXIMATE;TI"viewport;T{I"northeast;T{I"lat;Tf46.627282I"lng;Tf41.776638I"southwest;T{I"lat;Tf40.90861I"lng;Tf27.4426426I"
+types;T[I"natural_feature;TI"establishment;T;0

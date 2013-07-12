@@ -1,0 +1,41 @@
+require 'pry'
+
+def cached(fname)
+  fname = fname + '.marshal'
+  File.exists?(fname) ? Marshal.load(IO.read(fname)) : yield
+end
+
+def save(ob, fname)
+  fname = fname + '.marshal'
+  File.open(fname, "w") { |f| f.write(Marshal.dump(ob)) }
+end
+
+def save_ts(ob, fname)
+  fname = fname + Time.now.to_i.to_s + '.marshal'
+  save(ob, fname)
+end
+
+namespace :grid do
+  desc "Generate grids"
+  task :gen do
+    require File.expand_path('../ruby/griddable', __FILE__)
+
+    griddable = cached "griddable-bulgaria" do
+      GriddableMap.new(top_left: '44.370987,22.313232', 
+      bottom_right: "40.763901,29.53125",
+      rule: "country",
+      name: "bulgaria")
+    end
+    save griddable.to_grid(50), "grid-bulgaria"
+    save griddable, "griddable-bulgaria"
+
+    griddable = cached "griddable-ukraine" do
+      GriddableMap.new(top_left: '44.370987,22.313232', 
+      bottom_right: "40.763901,29.53125",
+      rule: "country",
+      name: "bulgaria")
+    end
+    save griddable.to_grid(50), "grid-ukraine"
+    save griddable, "griddable-ukraine"
+  end
+end
